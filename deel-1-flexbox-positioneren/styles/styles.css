@@ -1,1 +1,78 @@
-/*Schrijf hier jouw CSS*/
+/*Schrijfhier jouw CSS*/
+
+
+.opdrach-1-row{
+    display: flex;
+    justify-content: space-between;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 48px;
+    width: 800px;
+}
+.opdract-2-row-TextBlocks{
+    display: flex;
+    padding: 40px;
+    border: 2px solid black;
+    width: 800px;
+}
+.TextBlock {
+    width: 240px;
+
+}
+
+.trap-list{
+    display: column;
+    gap: 200px;
+
+
+
+}
+
+
+.top-left{
+    white-space: nowrap;
+
+
+
+}
+
+.centered{
+    white-space: nowrap;
+    position: relative;
+    left: 270px;
+
+
+}
+
+.bottom-right{
+    white-space: nowrap;
+    position: relative;
+    left: 570px;
+
+}
+
+.wrap-divs{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px
+}
+
+.column-parent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:40px
+}
+
+.parent-column-parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: space-between;
+
+
+
+
+
+}
